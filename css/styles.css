@@ -58,6 +58,7 @@ body{
   background: #697296;
   border-radius: 50%;
   transition: 1s;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .navigator ul li a:hover{
@@ -94,13 +95,21 @@ body{
   background-color: #5B616A;
 }
 
-.bigger{
-  font-weight: bold;
-  font-size: 1.5rem;
+.hide {
+   font-family: 'Shadows Into Light', cursive;
 }
 
 .contents h2{
-  margin: 0 auto;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.contents h2::before{
+  content: "--";
+  color: #fff;
 }
 
 
