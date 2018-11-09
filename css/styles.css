@@ -1,5 +1,11 @@
-@@charset "UTF-8";
+@charset "UTF-8";
 
-h1{
-  color: #efefef;
+.top{
+  color: red;
+  background-color: blue;
+}
+
+.title{
+  background-color: red;
+  font-weight: bold;
 }
