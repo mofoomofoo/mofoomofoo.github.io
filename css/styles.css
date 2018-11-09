@@ -10,23 +10,26 @@ body{
 
 .header{
   margin: 0px 0px auto;
-
 }
 
 .logo{
-  font-size: 40px;
+  width: 100%;
+  font-size: 3rem;
   margin:0;
-  padding: 10px 40px;
+  padding: 50px 50px;
   letter-spacing: 10px;
   color: #fff;
-  background-color: #5B616A;
   font-weight: bold;
   line-height: 30px;
+  position: fixed;
 }
 
 .navigator{
   background-color: #5B616A;
+  opacity: 0.9;
+  border-radius: 5px;
   margin: 0;
+  margin-top:50px;
   position: fixed;
   top:0;
   right: 0;
@@ -35,6 +38,7 @@ body{
 .navigator ul{
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 .navigator ul li{
@@ -66,7 +70,7 @@ body{
 }
 
 .parallax-window {
-     min-height: 800px;
+     min-height: 1000px;
      background: transparent;
 }
 
@@ -87,5 +91,30 @@ body{
   width: 100%;
   height:400px;
   text-align: center;
-  background-color: #fff;
+  background-color: #5B616A;
+}
+
+.bigger{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contents h2{
+  margin: 0 auto;
+}
+
+
+footer{
+  background-color: #5B616A;
+}
+
+footer p{
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 20px;
+  margin: 0;
+  padding: 10px;
+
 }
