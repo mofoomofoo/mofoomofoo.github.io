@@ -1,11 +1,52 @@
 @charset "UTF-8";
 
-.top{
-  color: red;
-  background-color: blue;
+body{
+  font-size: 18px;
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+  margin: 0;
 }
 
-.title{
-  background-color: red;
-  font-weight: bold;
+.header{
+  margin: 15px auto;
+
+}
+
+.logo{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.navigator{
+  background-color: gray;
+  margin: 0;
+}
+
+.navigator ul{
+  text-align: center;
+  margin: 0;
+}
+
+.navigator ul li{
+  line-height: 40px;
+  list-style: none;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.navigator ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigator ul li:hover{
+  background: #efefef;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.navigator ul li a:hover{
+  color: #000;
+
 }
