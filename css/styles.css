@@ -52,7 +52,6 @@ body{
 
 .navigator ul li:hover{
   background: #697296;
-  opacity: 0.8;
   border-radius: 50%;
   transition: 1s;
 }
